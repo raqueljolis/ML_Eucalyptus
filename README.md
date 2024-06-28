@@ -11,6 +11,7 @@ This project focuses on utilizing machine learning techniques to predict the spe
 - [Results and Discussion](#results-and-discussion)
 - [Conclusions](#conclusions)
 - [References](#references)
+- [Reproducing Results](#reproducing-results)
 
 ## Introduction
 This project utilizes machine learning techniques to predict the species of Eucalyptus plants, which is crucial for research, conservation, and a deeper understanding of each plant. We implemented several methods, including Linear Discriminant Analysis, K-Nearest Neighbors, Random Forest, and Support Vector Machine.
@@ -54,6 +55,15 @@ The Random Forest model proved to be the most effective for our dataset, handlin
 ## References
 - Bulloch, B. (2014). Eucalyptus Soil Conservation OpenML. WEKA Dataset Collection.
   https://www.openml.org/search?type=data&status=active&id=188&sort=runs
+
+## Reproducing Results
+To reproduce the results from the provided Python notebook `final_project_eucalyptus.ipynb`, follow these steps using Google Colab:
+1. Upload the notebook and the dataset file `dataset_eucalyptus_neta.txt` to your Colab environment.
+2. Ensure the dataset file is in the same directory as the notebook or adjust the file path in the notebook accordingly.
+3. Install the required Python package `dython` by executing the command `!pip install dython` in a Colab cell.
+4. Once the package is installed, execute all cells in the notebook by selecting `Runtime -> Run All`.
+
+Following these steps will allow you to execute the notebook and reproduce the results discussed in the project report.
 
 
 ---
